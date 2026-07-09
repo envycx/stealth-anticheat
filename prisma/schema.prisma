@@ -1,0 +1,88 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  username      String    @unique
+  passwordHash  String
+  avatarUrl     String?
+  createdAt     DateTime  @default(now())
+  twoFactorSecret String?
+  twoFactorEnabled Boolean @default(false)
+  role          String    @default("user")
+  
+  licenses      License[]
+  apiKeys       ApiKey[]
+  activities    Activity[]
+}
+
+model License {
+  id              String    @id @default(cuid())
+  userId          String
+  user            User      @relation(fields: [userId], references: [id])
+  tier            String    // "usermode" | "kernel"
+  status          String    @default("active")
+  licenseKey      String    @unique
+  purchasedAt     DateTime  @default(now())
+  expiresAt       DateTime?
+  maxActivations  Int       @default(2)
+  seats           Int?
+  stripeSessionId String?
+  
+  activations     Activation[]
+  teamMembers     TeamMember[]
+}
+
+model Activation {
+  id          String   @id @default(cuid())
+  licenseId   String
+  license     License  @relation(fields: [licenseId], references: [id])
+  hwid        String
+  deviceName  String
+  ipAddress   String
+  activatedAt DateTime @default(now())
+  lastSeenAt  DateTime @default(now())
+  isActive    Boolean  @default(true)
+}
+
+model ApiKey {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id])
+  name         String
+  keyHash      String   @unique
+  keyPreview   String
+  environment  String   // "production" | "sandbox"
+  createdAt    DateTime @default(now())
+  lastUsedAt   DateTime?
+  isActive     Boolean  @default(true)
+}
+
+model TeamMember {
+  id             String   @id @default(cuid())
+  licenseId      String
+  license        License  @relation(fields: [licenseId], references: [id])
+  email          String
+  status         String   @default("pending")
+  invitedAt      DateTime @default(now())
+  activatedAt    DateTime?
+  subLicenseKey  String   @unique
+}
+
+model Activity {
+  id          String   @id @default(cuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  type        String
+  description String
+  ipAddress   String
+  timestamp   DateTime @default(now())
+  metadata    Json?
+}

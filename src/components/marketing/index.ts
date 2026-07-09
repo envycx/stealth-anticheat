@@ -1,0 +1,8 @@
+export { HeroSection } from './HeroSection'
+export { FeatureGrid } from './FeatureGrid'
+export { HowItWorks } from './HowItWorks'
+export { ComparisonTable } from './ComparisonTable'
+export { PricingCards } from './PricingCards'
+export { Testimonials } from './Testimonials'
+export { TrustSection } from './TrustSection'
+export { FaqAccordion } from './FaqAccordion'

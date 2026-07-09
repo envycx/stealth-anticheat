@@ -1,0 +1,861 @@
+{
+  "pbtResults": {
+    "2.2 Write property test for API Key reveal-once invariant (Property 3)": {
+      "status": "passed",
+      "lastRunTimestamp": 1783469337788
+    },
+    "2.6 Write property test for activity feed descending timestamp ordering (Property 6)": {
+      "status": "passed",
+      "lastRunTimestamp": 1783469767139
+    },
+    "2.7 Write property test for license seat accounting invariant (Property 4)": {
+      "status": "passed",
+      "lastRunTimestamp": 1783469794649
+    }
+  },
+  "executionHistory": {
+    "1.1 Scaffold Next.js 14 App Router project with TypeScript, Tailwind CSS, and all required dependencies (framer-motion, lucide-react, react-hook-form, zod, sonner, fast-check, vitest, @testing-library/react, playwright)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467350495
+      },
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467365728
+      },
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783468630136
+      }
+    ],
+    "1.2 Define all shared TypeScript interfaces in `src/types/index.ts`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467350841
+      },
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467366561
+      },
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783468630993
+      }
+    ],
+    "1.3 Implement `src/lib/utils.ts` with helper functions: `cn()`, `formatDate()`, `truncate()`, `maskHwid()`, `formatLicenseKey()`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351034
+      },
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783468634986
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470113051
+      }
+    ],
+    "1.4 Implement Zod validation schemas in `src/lib/validators.ts`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351137
+      },
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783468635753
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470113730
+      }
+    ],
+    "1.5 Write unit tests for `utils.ts` and `validators.ts`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351270
+      },
+      {
+        "executionId": "ef906fe6-7b8b-4ad5-9248-2d1969566e73",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783468852248
+      },
+      {
+        "executionId": "ef906fe6-7b8b-4ad5-9248-2d1969566e73",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469262654
+      }
+    ],
+    "2.1 Implement `src/lib/mock-data.ts` with seeded mock instances for all types": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351377
+      },
+      {
+        "executionId": "ef906fe6-7b8b-4ad5-9248-2d1969566e73",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783468854885
+      },
+      {
+        "executionId": "ef906fe6-7b8b-4ad5-9248-2d1969566e73",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469265945
+      }
+    ],
+    "2.2 Write property test for API Key reveal-once invariant (Property 3)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351526
+      },
+      {
+        "executionId": "ef906fe6-7b8b-4ad5-9248-2d1969566e73",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469271956
+      },
+      {
+        "executionId": "f3e3578e-1415-4aaf-8432-34dcf001ba75",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469678968
+      }
+    ],
+    "2.3 Implement `AuthContext` and `authReducer` in `src/contexts/AuthContext.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351637
+      },
+      {
+        "executionId": "ef906fe6-7b8b-4ad5-9248-2d1969566e73",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469274893
+      },
+      {
+        "executionId": "f3e3578e-1415-4aaf-8432-34dcf001ba75",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469682206
+      }
+    ],
+    "2.4 Write unit tests for `authReducer`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351741
+      },
+      {
+        "executionId": "f3e3578e-1415-4aaf-8432-34dcf001ba75",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469688909
+      },
+      {
+        "executionId": "b51f9905-04cd-468f-abab-3e87d23ad37b",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470078979
+      }
+    ],
+    "2.5 Implement `LicenseContext` and `licenseReducer` in `src/contexts/LicenseContext.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351891
+      },
+      {
+        "executionId": "ef906fe6-7b8b-4ad5-9248-2d1969566e73",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469277883
+      },
+      {
+        "executionId": "f3e3578e-1415-4aaf-8432-34dcf001ba75",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469685405
+      }
+    ],
+    "2.6 Write property test for activity feed descending timestamp ordering (Property 6)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467351987
+      },
+      {
+        "executionId": "f3e3578e-1415-4aaf-8432-34dcf001ba75",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469691920
+      },
+      {
+        "executionId": "b51f9905-04cd-468f-abab-3e87d23ad37b",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470083740
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470118337
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470133929
+      }
+    ],
+    "2.7 Write property test for license seat accounting invariant (Property 4)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352075
+      },
+      {
+        "executionId": "f3e3578e-1415-4aaf-8432-34dcf001ba75",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469694890
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470098772
+      }
+    ],
+    "3.1 Implement `src/components/ui/` primitive components: `Button`, `Card`, `Badge`, `Input`, `Modal`, `Accordion`, `Tooltip`, `CopyButton`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352187
+      },
+      {
+        "executionId": "f3e3578e-1415-4aaf-8432-34dcf001ba75",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783469699041
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470099928
+      }
+    ],
+    "3.2 Implement visual effect components in `src/components/effects/`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352348
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470118479
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470140131
+      }
+    ],
+    "3.3 Write property test for counter animation convergence (Property 2)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352443
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470118581
+      }
+    ],
+    "3.4 Implement layout components: `Navbar`, `Footer`, `DashboardShell`, `Sidebar`, `MobileNav`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352539
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470118697
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470143441
+      }
+    ],
+    "4. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352651
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470118799
+      }
+    ],
+    "5.1 Implement `HeroSection` with headline, subheadline, primary CTA, animated shield graphic, and `StatsCounter` live statistics": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352756
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470118901
+      }
+    ],
+    "5.2 Implement `FeatureGrid`, `HowItWorks`, `ComparisonTable`, `Testimonials`, and `FaqAccordion` marketing components": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467352901
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119018
+      }
+    ],
+    "5.3 Implement `PricingCards` and `TrustSection` marketing components": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353013
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119176
+      }
+    ],
+    "5.4 Assemble the landing page at `app/page.tsx` and pricing page at `app/pricing/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353134
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119294
+      }
+    ],
+    "6.1 Implement `RegisterForm` component with React Hook Form + Zod": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353225
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119397
+      }
+    ],
+    "6.2 Write property test for form validation whitespace rejection (Property 1)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353336
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119500
+      }
+    ],
+    "6.3 Implement `LoginForm` component with React Hook Form + Zod": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353437
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119601
+      }
+    ],
+    "6.4 Write property test for login error non-enumeration (Property 12)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353587
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119717
+      }
+    ],
+    "6.5 Implement `TwoFactorSetup` and `TwoFactorPrompt` auth components": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353702
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119816
+      }
+    ],
+    "6.6 Implement auth pages: `app/auth/login/page.tsx`, `app/auth/register/page.tsx`, `app/auth/forgot-password/page.tsx`, `app/auth/2fa-setup/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353818
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470119970
+      }
+    ],
+    "7.1 Implement `AuthGuard` client component and `app/dashboard/layout.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467353973
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120081
+      }
+    ],
+    "7.2 Implement `LicenseStatusCard` and `ActivityFeed` dashboard components": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354075
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120180
+      }
+    ],
+    "7.3 Assemble `app/dashboard/page.tsx` overview": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354179
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120283
+      }
+    ],
+    "8.1 Implement `BuildCard` and `DownloadButton` dashboard components": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354302
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120381
+      }
+    ],
+    "8.2 Write property test for build card metadata completeness (Property 11)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354444
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120486
+      }
+    ],
+    "8.3 Implement downloads gating logic and assemble `app/dashboard/downloads/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354564
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120616
+      }
+    ],
+    "8.4 Write property test for source code download gating (Property 5)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354673
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120732
+      }
+    ],
+    "8.5 Write property test for license-gated content exclusion (Property 7)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354826
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120835
+      }
+    ],
+    "9.1 Implement `DeviceList` dashboard component": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467354955
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470120933
+      }
+    ],
+    "9.2 Write property test for HWID deactivation immediate reflection (Property 8)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355056
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121050
+      }
+    ],
+    "9.3 Assemble `app/dashboard/license/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355168
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121166
+      }
+    ],
+    "10.1 Implement `ApiKeyRow` dashboard component and API key management actions": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355337
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121286
+      }
+    ],
+    "10.2 Write property test for API key revocation removes from active list (Property 9)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355439
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121384
+      }
+    ],
+    "10.3 Assemble `app/dashboard/api-keys/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355543
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121498
+      }
+    ],
+    "11.1 Implement `TeamMemberRow` dashboard component and team management actions": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355653
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121603
+      }
+    ],
+    "11.2 Assemble `app/dashboard/team/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355794
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121782
+      }
+    ],
+    "12.1 Implement account settings forms: change password, change email, 2FA management, connected devices": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467355899
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470121915
+      }
+    ],
+    "12.2 Assemble `app/dashboard/settings/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356004
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122031
+      }
+    ],
+    "12.3 Write property test for toast notifications matching form outcome (Property 10)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356156
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122132
+      }
+    ],
+    "13. Checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356275
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122235
+      }
+    ],
+    "14.1 Implement `app/status/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356399
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122344
+      }
+    ],
+    "14.2 Implement `app/changelog/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356509
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122459
+      }
+    ],
+    "14.3 Implement `app/builds/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356617
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122567
+      }
+    ],
+    "14.4 Implement `app/bug-bounty/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356723
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122818
+      }
+    ],
+    "14.5 Implement `app/docs/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356823
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470122931
+      }
+    ],
+    "15.1 Implement `app/report/page.tsx` with false-positive and cheat report forms": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467356935
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123054
+      }
+    ],
+    "15.2 Implement `app/checkout/page.tsx` checkout flow": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357079
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123214
+      }
+    ],
+    "16.1 Implement `app/dashboard/support/page.tsx`": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357178
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123316
+      }
+    ],
+    "16.2 Create `README.md` documenting mock/placeholder systems and backend integration requirements": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357307
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123414
+      }
+    ],
+    "17.1 Write Playwright smoke test: Auth flow (register → dashboard → logout → login → dashboard)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357485
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123515
+      }
+    ],
+    "17.2 Write Playwright smoke test: 2FA gate (attempt source download without 2FA → prompt → enable 2FA → source visible)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357593
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123614
+      }
+    ],
+    "17.3 Write Playwright smoke test: License gate (no license → Downloads CTA → checkout → license active)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357717
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123720
+      }
+    ],
+    "17.4 Write Playwright smoke test: API key lifecycle (generate → copy → revoke → removed from list)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357808
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123828
+      }
+    ],
+    "17.5 Write Playwright smoke test: Team management (add member → seat decrements → remove → seat returns)": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467357919
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470123953
+      }
+    ],
+    "18. Final checkpoint — Ensure all tests pass": [
+      {
+        "executionId": "8977213e-e5df-4093-8164-d3845c7cff2e",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783467358022
+      },
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470124147
+      }
+    ],
+    "1. Project foundation and shared types": [
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470113866
+      }
+    ],
+    "2. Mock data and application contexts": [
+      {
+        "executionId": "90da9a84-e54f-45b4-a1bb-36a4408ae568",
+        "chatSessionId": "sess_be26bd1e-ce56-4ec5-8da8-2dc1bdb2259f",
+        "timestamp": 1783470134067
+      }
+    ]
+  }
+}

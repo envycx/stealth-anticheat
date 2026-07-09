@@ -1,10 +1,11 @@
-import NextAuth from "next-auth"
+import NextAuth, { NextAuthOptions } from "next-auth"
+import { getServerSession } from "next-auth/next"
 import Credentials from "next-auth/providers/credentials"
 import { compare } from "bcryptjs"
 import { prisma } from "./prisma"
 import { z } from "zod"
 
-export const { handlers, signIn, signOut, auth } = NextAuth({
+export const authOptions: NextAuthOptions = {
   providers: [
     Credentials({
       name: "credentials",
@@ -56,17 +57,17 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
       // Add user info to JWT on sign in
       if (user) {
         token.id = user.id
-        token.role = user.role ?? 'user'
-        token.twoFactorEnabled = user.twoFactorEnabled ?? false
+        token.role = (user as any).role ?? 'user'
+        token.twoFactorEnabled = (user as any).twoFactorEnabled ?? false
       }
       return token
     },
     async session({ session, token }) {
       // Add user info to session
       if (token && session.user) {
-        session.user.id = token.id as string
-        session.user.role = token.role as string
-        session.user.twoFactorEnabled = token.twoFactorEnabled as boolean
+        (session.user as any).id = token.id as string
+        (session.user as any).role = token.role as string
+        (session.user as any).twoFactorEnabled = token.twoFactorEnabled as boolean
       }
       return session
     },
@@ -81,4 +82,7 @@ export const { handlers, signIn, signOut, auth } = NextAuth({
     maxAge: 30 * 24 * 60 * 60, // 30 days
   },
   secret: process.env.NEXTAUTH_SECRET,
-})
+}
+
+// Helper function to get session in API routes (NextAuth v4 pattern)
+export const auth = () => getServerSession(authOptions)
